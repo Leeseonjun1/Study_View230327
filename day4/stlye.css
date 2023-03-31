@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+table, th, td{
+    border:1px solid #333; /* 테두리: 1픽셀 두께 직선 검정색*/
+    border-collapse: collapse; /*테두리 겹침*/
+}
+th,td{
+    padding:30px 50px;   /*좌우여백/위아래여백*/
+}
+.time_talbe{
+    width:1000px;
+    margin: 0 auto; /*가운데 정렬*/
+}
+p{
+    margin:50px 0;
+}
+
+h2,p ,h1 {
+    text-align:center;
+}
+h1{
+    background-color:cornflowerblue;
+    padding:50px;
+}
+th {
+    background-color: yellow;
+}
+
+body{
+    font-family: 'Single Day', cursive;
+}
+
+
+
+@media screen and (max-width:500px){
+    body{
+        background-color:orange;
+  }
+  .time_talbe{
+    width: 70% /*5000.9 =450px*/
+  }
+}
